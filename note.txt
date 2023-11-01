@@ -1,0 +1,80 @@
+                       REACT
+
+-front end framework
+-there are seme custom elements in this which are not in traditional one
+-mixing of different type of files(HTML, CSS, JS)
+-we can differentite things in react using which then we can make that single thing do a thing without refreshing the whole website
+-Re-renders this only in that part
+
+
+
+
+
+                            ES6
+
+TEMPLATE LITERALS 
+
+- they can be creates using   ``
+-it is a way to work with  strings
+-Combining strings using template literals = 
+    >`` you have to put the whole content in backticks
+    > ${} using this the variable or the text can be specified
+            let name1 = prompt("You first name");
+            let name2 = prompt("Your last name");
+
+            let fullName = `${name1} ${name2}`
+
+            document.getElementById("example").innerHTML = fullName;
+
+STRUCTURING OBJECTS
+
+-it is used to bind values from the objects to a Variable
+       -const me = { 
+            name: "arham",
+            age: "17 year and 3 month ",
+            ability: "obsession",
+        }
+
+        const {name, age , ability } = me;
+
+        let all = (`${name}  ${age}  ${ability}` )
+
+        document.getElementById("heading").innerHTML = all ;
+
+        console.log(all);
+
+-const{name , age , ability} = me;
+-this is used to to name the variables to be used outside as well - "name: hello" this can be used to reaname the thing outside the object 
+
+
+DESTRUCTURING ARRAYS
+
+you are basically making variable and a array at the same time time  
+
+    let [one , two , three , four , five ] = ['arham' , 23 , "amin" , "wani" , "12342342"];
+
+OBJECT LITERALS
+-
+
+
+
+FOR OF 
+-it is basically used to loop of the whole thing, and see the value individually
+
+    let  full = [200 , 600 , 400];
+
+    for ( const text of full){
+        console.log(text);
+    }
+    
+
+
+
+
+
+
+
+            
+
+
+
