@@ -118,8 +118,22 @@ ANONYMOUS FUNCTION
 
 
 DEFAULT PARAMS
+- it is used to make put in default paramerter, in case no prameter is passed while calling the function
+-   const leadSinger = (artist = "someone")
+
+-in this case if you dont put in the value while calllig the function someone will aoutomatically be put in.
 
 
+.indexOf
+-it is used to count number of charecters and also the number of elements inside an arary
+
+.includes
+it is used to check wether an array has that element or not
+
+
+
+cost 
+in tjs
 
 
 
