@@ -82,6 +82,36 @@ SPRED OPERATORS
 - "...variablename" this here creates a copy of the array or ojject isde the new object
 OBJECT
 
+-   let employee = {
+        ...person,
+        salary: 50000,
+        position: "Software Developer"
+    }
+
+    console.log(employee);
+
+REST OPERATORS
+
+if you write a function and dont know how many paramertes will be entered you can use this
+
+    function add(...nums) {
+        
+        console.log(nums);
+    }
+
+    add(4, 5, 7, 8, 12)
+
+-...nums is used to take more than one parameter as imputs
+
+ARROW FUNCTIONS
+
+-
+
+
+ANONYMOUS FUNCTION 
+
+-they are used to make functions  inside functions which are not to be used any where else
+
 
 
 
