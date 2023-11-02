@@ -66,8 +66,8 @@ FOR OF
     for ( const text of full){
         console.log(text);
     }
-    nf
-    
+
+
 
 
 
