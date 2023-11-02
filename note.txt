@@ -105,12 +105,21 @@ if you write a function and dont know how many paramertes will be entered you ca
 
 ARROW FUNCTIONS
 
--
+-       const dinnerMenu = (food) => {
+            return `I'm going to eat a ${food} for dinner`;
+        }
+
+        console.log( dinnerMenu("chicken salad") );
 
 
 ANONYMOUS FUNCTION 
 
 -they are used to make functions  inside functions which are not to be used any where else
+
+
+DEFAULT PARAMS
+
+
 
 
 
