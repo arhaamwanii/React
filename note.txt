@@ -67,6 +67,21 @@ FOR OF
         console.log(text);
     }
 
+SPRED OPERATORS
+
+-making a copy of an array or objects
+
+ -  let contacts = ["Mary", "Joel", "Danny"];
+
+    let personalFriends = ["david",  ...contacts , "lilly" ];
+
+    contacts.push("John");
+
+    console.log(personalFriends);
+
+- "...variablename" this here creates a copy of the array or ojject isde the new object
+OBJECT
+
 
 
 
