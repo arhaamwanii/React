@@ -135,7 +135,7 @@ it is used to check wether an array has that element or not
 cost 
 -in this case you cant change the data type 
 -you can push a value inside a array or a object which is defined via const 
-
+-text
 
 
 
