@@ -137,7 +137,13 @@ cost
 -you can push a value inside a array or a object which is defined via const 
 -text
 
-.it
+padStart & padIn
+-add numbers or text in the string or ending to make the string fit the the length you want it to be
+
+
+CLASSES 
+
+
 
 
 
