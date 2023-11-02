@@ -141,7 +141,27 @@ padStart & padIn
 -add numbers or text in the string or ending to make the string fit the the length you want it to be
 
 
+THIS 
+    function yourName(name){
+
+        let legs = "anything" ;
+
+        this.legs = name;
+        console.log(this.legs)
+    
+        console.log(legs)
+    }
+
+    yourName("Arham Amin Wani");
+
+
 CLASSES 
+-it is a template, balnk form\
+
+Object
+-your information,
+-object is subjective.. varies from person to person
+-
 
 
 
