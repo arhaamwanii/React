@@ -353,6 +353,12 @@ PROMISES
         //.then will be used to deifine the result for --"RESOLVE"
         //.cath is used to define the result for --"REJECT"
 
+-promises are mailnly used toc make something do in the  background
+
+
+FETCH
+-mainly used to do API calls
+f
 
 
 

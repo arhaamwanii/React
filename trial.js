@@ -168,22 +168,22 @@
 //     )
 // }
 
-let prom = new Promise((resolve, reject) => {
-    let  a = 1 + 1
-    if(a == 2){
-        resolve("shit is Working")
-    }else{
-        reject("shit is not working")
-    }
-})
+// let prom = new Promise((resolve, reject) => {
+//     let  a = 1 + 1
+//     if(a == 2){
+//         resolve("shit is Working")
+//     }else{
+//         reject("shit is not working")
+//     }
+// })
 
 
-prom.then((message) => {
-    console.log("this is in the then, - " + message)
-})
-prom.catch((message) => {
-    console.log("this is in the catch, - " + message)
-})
+// prom.then((message) => {
+//     console.log("this is in the then, - " + message)
+// })
+// prom.catch((message) => {
+//     console.log("this is in the catch, - " + message)
+// })
 
 
 //then is used when a promise is resolves i.e it is fullfilled  -- is going to run for reslove
@@ -194,3 +194,6 @@ prom.catch((message) => {
 //once the inital conditions are defined we ca define the outPut
     //.then will be used to deifine the result for --"RESOLVE"
     //.cath is used to define the result for --"REJECT"
+
+
+    
