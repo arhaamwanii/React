@@ -83,6 +83,19 @@
 
 class Animal{
     constructor(one  , two){
-        
+        this.legs = console.log(one)
+        this.arms = console.log(two)
     }
-}
+};
+
+const human = new Animal("two arms" , "two legs");
+const dog = new Animal("four legs " , "four arms");
+
+
+
+
+//OBJECT-FACTORY and CLASSES  basically so the same thing
+//first we difined a class named "Animals" - first letter is capial because it is comsidered good practise
+//inside  the class we puted in a CONSTRUCTOR whcih was is used to put in parameters inside when we call the function
+//inside we can define the code we need to use these parameters
+// THIS in this 
