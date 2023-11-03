@@ -238,7 +238,37 @@ console.log(prduct1)
 
 
 CONSTRUCTORS
+
 -it is used to determine the parameters specific to the object we are going to create  using the class thing
+
+-   class Animal{
+        constructor(one  , two){
+            this.legs = one;
+            this.arms = two;
+        }
+    };
+
+    let human = new Animal("two arms" , "two legs");
+    console.log(human.legs)
+    console.log(human.arms)
+
+    const dog = new Animal("four legs " , "four arms");
+
+
+
+//OBJECT-FACTORY and CLASSES  basically so the same thing
+//first we difined a class named "Animals" - first letter is capial because it is comsidered good practise
+//inside  the class we puted in a CONSTRUCTOR whcih was is used to put in parameters inside when we call the function
+//inside we can define the code we need to use these parameters for
+//'THIS' refers to the name of the animal in this case which we are going to set using the "new" keyword , the name of the variable given there will be the name of "THIS" in that case     "let human = new Animal "
+// we put the name of the property or function in that case using "this.name" - name here determines the name of the function or propeerty in that which will be specific to the "this" -- this is the name determined while calling the class
+// then we puted this property equal to the parameter we got while calling the class - these paraemters are specific to every object created from the class
+// CALLING THE CLASS - 
+//whatever we keep the name of the variable while calling the class will be the name of that class(THIS will be specified to it)  
+//"NEW" keyword here determines the making of a new object
+//then we call the fumction and put in the parameter specific to the name of the variable in that case
+
+
 
 
 

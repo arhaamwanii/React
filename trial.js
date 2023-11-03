@@ -88,12 +88,14 @@ class Animal{
     }
 };
 
-let human = new Animal("two arms" , "two legs");
+let human = new Animal("two legs" , "two arms");
+console.log(human)
+
 console.log(human.legs)
 console.log(human.arms)
 
 const dog = new Animal("four legs " , "four arms");
-
+const horse = new Animal("4 legs" , "0 arms")
 
 
 
