@@ -171,9 +171,9 @@
 let prom = new Promise((resolve, reject) => {
     let  a = 1 + 1
     if(a == 2){
-        resolve("success")
+        resolve("shit is Working")
     }else{
-        reject("failed")
+        reject("shit is not working")
     }
 })
 
@@ -187,4 +187,10 @@ prom.catch((message) => {
 
 
 //then is used when a promise is resolves i.e it is fullfilled  -- is going to run for reslove
+//we create a new js object and name it prom 
+//we put in two in built functions related to promise  - resolve and reject as the parameters to the inbuilt object promise
+//then we define the function  and and the conditions for resolve and reject in there
 
+//once the inital conditions are defined we ca define the outPut
+    //.then will be used to deifine the result for --"RESOLVE"
+    //.cath is used to define the result for --"REJECT"
