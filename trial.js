@@ -136,7 +136,7 @@ ronaldo.text();
 
 
 class TennisPlayer extends FootBallPlayer{
-    constructor( hits){
+    constructor( playerName, age , country , hits){
         super(playerName , age , country);
         this.playerName  =  playerName;
         this.age = this.age;
@@ -150,8 +150,9 @@ class TennisPlayer extends FootBallPlayer{
     }
 
 
-let rafael  = new TennisPlayer("rafel" , 32 , "someplace");
+let rafael  = new TennisPlayer("rafel" , 32 , "someplace" , 23);
 
+rafael.text2();
 
 
 // console.log(messi.age)
