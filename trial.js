@@ -138,12 +138,13 @@ ronaldo.text();
 class TennisPlayer extends FootBallPlayer{
     constructor( hits){
         super(playerName , age , coun );
-        this.playerName  =  playerName;
-        this.country = this.country;
+        // this.playerName  =  playerName;
+        // this.country = this.country;
+        this.hits = 1213;
     }
     
         text2(){
-            console.log(`am a tennis player , my name is ${this.playerName} i live in ${this.country} `)
+            console.log(`am a tennis player , my name is ${this.playerName} i live in ${this.country} i had ${this.hits} hits till now `)
         }
     }
 
