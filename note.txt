@@ -322,6 +322,11 @@ GET
 
 
 PROMISES
+-used on network requests
+-fetch data
+-promise leading to a result - which is either resolved or rejected
+
+
 
 
 

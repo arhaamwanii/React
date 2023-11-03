@@ -113,46 +113,78 @@
 //then we call the fumction and put in the parameter specific to the name of the variable in that case
 
 
-class FootBallPlayer {
-    constructor(playerName ,  age , country){
-        this.name = playerName;
-        this.age = age;
-        this.country  = country;
+// class FootBallPlayer {
+//     constructor(playerName ,  age , country){
+//         this.name = playerName;
+//         this.age = age;
+//         this.country  = country;
     
-    }
-     text() {
-        console.log(`my name is ${this.name} am ${this.age} , curretly living in ${this.country}`)
-    }
+//     }
+//      text() {
+//         console.log(`my name is ${this.name} am ${this.age} , curretly living in ${this.country}`)
+//     }
 
-}
-
-
-let messi = new FootBallPlayer( "messi" , 37 , "usa");
-let ronaldo = new FootBallPlayer("ronaldo" , 38 , "pourtgal")
+// }
 
 
-messi.text();
-ronaldo.text();
+// let messi = new FootBallPlayer( "messi" , 37 , "usa");
+// let ronaldo = new FootBallPlayer("ronaldo" , 38 , "pourtgal")
 
 
-class TennisPlayer extends FootBallPlayer{
-    constructor( playerName, age , country , hits){
-        super(playerName , age , country);
-        this.playerName  =  playerName;
-        this.age = this.age;
-        this.country = this.country;
-        this.hits = 1213;
-    }
+// messi.text();
+// ronaldo.text();
+
+
+// class TennisPlayer extends FootBallPlayer{
+//     constructor( playerName, age , country , hits){
+//         super(playerName , age , country);
+//         this.playerName  =  playerName;
+//         this.age = this.age;
+//         this.country = this.country;
+//         this.hits = 1213;
+//     }
     
-        text2(){
-            console.log(`am a tennis player , my name is ${this.playerName} i live in ${this.country} i had ${this.hits} hits till now `)
-        }
-    }
+//         text2(){
+//             console.log(`am a tennis player , my name is ${this.playerName} i live in ${this.country} i had ${this.hits} hits till now `)
+//         }
+//     }
 
 
-let rafael  = new TennisPlayer("rafel" , 32 , "someplace" , 23);
+// let rafael  = new TennisPlayer("rafel" , 32 , "someplace" , 23);
 
-rafael.text2();
+// rafael.text2();
 
 
 // console.log(messi.age)
+
+// const buyFlightTicket = () => {
+//     return new Promise((resolve , reject) => {
+//         setTimeout( () =>{
+//             const error = false;
+
+
+//         } , 3000)
+//     }
+//     )
+// }
+
+let prom = new Promise((resolve, reject) => {
+    let  a = 1 + 1
+    if(a == 2){
+        resolve("success")
+    }else{
+        reject("failed")
+    }
+})
+
+
+prom.then((message) => {
+    console.log("this is in the then, - " + message)
+})
+prom.catch((message) => {
+    console.log("this is in the catch, - " + message)
+})
+
+
+//then is used when a promise is resolves i.e it is fullfilled  -- is going to run for reslove
+
