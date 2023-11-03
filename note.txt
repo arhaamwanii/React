@@ -238,7 +238,7 @@ console.log(prduct1)
 
 
 CONSTRUCTORS
-
+-it is used to determine the parameters specific to the object we are going to create  using the class thing
 
 
 
