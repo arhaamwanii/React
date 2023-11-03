@@ -269,6 +269,8 @@ CONSTRUCTORS
 //then we call the fumction and put in the parameter specific to the name of the variable in that case
 
 
+GET
+-similar to using a return statement
 
 
 

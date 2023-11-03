@@ -81,21 +81,21 @@
 
 //CONSTRUCTOR
 
-class Animal{
-    constructor(one  , two){
-        this.legs = one;
-        this.arms = two;
-    }
-};
+// class Animal{
+//     constructor(one  , two){
+//         this.legs = one;
+//         this.arms = two;
+//     }
+// };
 
-let human = new Animal("two legs" , "two arms");
-console.log(human)
+// let human = new Animal("two legs" , "two arms");
+// console.log(human)
 
-console.log(human.legs)
-console.log(human.arms)
+// console.log(human.legs)
+// console.log(human.arms)
 
-const dog = new Animal("four legs " , "four arms");
-const horse = new Animal("4 legs" , "0 arms")
+// const dog = new Animal("four legs " , "four arms");
+// const horse = new Animal("4 legs" , "0 arms")
 
 
 
@@ -113,3 +113,20 @@ const horse = new Animal("4 legs" , "0 arms")
 //then we call the fumction and put in the parameter specific to the name of the variable in that case
 
 
+class FootBallPlayer {
+    constructor(playerName ,  age , country){
+        this.name = playerName;
+        this.age = age;
+        this.country  = country;
+    
+    }
+     text() {
+        console.log(`my name is ${this.name} am ${this.age} , curretly living in ${this.country}`)
+    }
+
+}
+
+let messi = new FootBallPlayer( messi , 37 , "Argentina")
+
+console.log(messi.text())
+console.log(messi.age)
