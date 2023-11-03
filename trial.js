@@ -137,9 +137,10 @@ ronaldo.text();
 
 class TennisPlayer extends FootBallPlayer{
     constructor( hits){
-        super(playerName , age , coun );
-        // this.playerName  =  playerName;
-        // this.country = this.country;
+        super(playerName , age , country);
+        this.playerName  =  playerName;
+        this.age = this.age;
+        this.country = this.country;
         this.hits = 1213;
     }
     
