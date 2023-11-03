@@ -317,8 +317,6 @@ EXTENDING A CLASSES
     -you also have to include them in the CONSTRUCTOR keyword tho 
 
 
-
-
 GET
 -similar to using a return statement
 
