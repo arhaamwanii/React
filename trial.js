@@ -126,7 +126,30 @@ class FootBallPlayer {
 
 }
 
-let messi = new FootBallPlayer( messi , 37 , "Argentina")
 
-console.log(messi.text())
-console.log(messi.age)
+let messi = new FootBallPlayer( "messi" , 37 , "usa");
+let ronaldo = new FootBallPlayer("ronaldo" , 38 , "pourtgal")
+
+
+messi.text();
+ronaldo.text();
+
+
+class TennisPlayer extends FootBallPlayer{
+    constructor( hits){
+        super(playerName , age , coun );
+        this.playerName  =  playerName;
+        this.country = this.country;
+    }
+    
+        text2(){
+            console.log(`am a tennis player , my name is ${this.playerName} i live in ${this.country} `)
+        }
+    }
+
+
+let rafael  = new TennisPlayer("rafel" , 32 , "someplace");
+
+
+
+// console.log(messi.age)
