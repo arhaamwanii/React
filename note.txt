@@ -155,13 +155,32 @@ THIS
     yourName("Arham Amin Wani");
 
 
+OBJECT ORIENTED PROGRAMMING
+
+-Object-oriented programming (OOP) is a programming paradigm that uses objects and classes for organizing and structuring code. It is a way of designing software using the concept of objects, which can contain data in the form of fields (often known as attributes or properties) and code, in the form of procedures (often known as methods).
+-it has to do with, classes , obejects and methods... you can predefine stuff
+-centeren around objects, rather than FUNCTIONS
+-4 PILLARS
+
+ENCAPSULATION
+
+It also has specific propeties
+ Method is basically an function inside a object
+
+
 CLASSES 
 -it is a template, balnk form\
+
+CONSTRUCTOR
+-it is basically used as a input mehtod to make a copy based on the same TEMPLATE
 
 Object
 -your information,
 -object is subjective.. varies from person to person
 -
+
+
+
 
 
 
