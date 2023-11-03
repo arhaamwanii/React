@@ -37,12 +37,12 @@
 
 //FACTORY 
 
-function factory(radius){
+function fst(radius){
     return {
 
         //ket value pairs - PROPERTIES
         
-            radius: radius,
+            pp: radius =  "2442",
         
         //FUNCTION - METHOD(logic)
         
@@ -53,7 +53,17 @@ function factory(radius){
         
 }
 
-const prduct1 = factory(12);
+const prduct1 =  fst(144);
+
+prduct1.draw();
+
+console.log(prduct1)
+
+
+//we created a function/factory and we named it fst 
+//inside there wer put in a property and an method, 
+    //in the property we redfined the value of radius, which otheerwise
+
 
 
 
