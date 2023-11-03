@@ -160,12 +160,67 @@ OBJECT ORIENTED PROGRAMMING
 -Object-oriented programming (OOP) is a programming paradigm that uses objects and classes for organizing and structuring code. It is a way of designing software using the concept of objects, which can contain data in the form of fields (often known as attributes or properties) and code, in the form of procedures (often known as methods).
 -it has to do with, classes , obejects and methods... you can predefine stuff
 -centeren around objects, rather than FUNCTIONS
+-It also has specific propeties
+-Method is basically an function inside a object
 -4 PILLARS
 
 ENCAPSULATION
 
-It also has specific propeties
- Method is basically an function inside a object
+     let myDetails = {
+        name: "Arham",
+        residency: "Dalgate",
+        age: "17 years and 3 months",
+        timeIn: 18,
+        laverage: 3,
+        outPut: function(){
+            return this.timeIn * this.laverage;
+        }
+    };
+
+
+    let out = myDetails.outPut(45 , 11000);
+    
+    console.log(out);
+
+ABSTRACTION
+
+    -complexity is hidden
+    -reduces impact of change
+    -we can call  a specific thing only and we are good to go
+
+INHERITANCE
+
+    - we can first define things that allow us to communicate with the html and other stuff than we can simply call those and use them insted
+
+POLY-MORPHISHM
+
+    -get rid of if else complexity
+    -refacrtor switch case statements 
+
+OBJECT LITERAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 CLASSES 
