@@ -358,7 +358,16 @@ PROMISES
 
 FETCH
 -mainly used to do API calls
-f
+
+ASYNC
+-any function can be made ASYNC
+-then we can await a prmoise inside it 
+-the values inside are automatically wraped in a promise,
+
+AWAIT 
+-it is used to wait before fotr the promise to be full filled
+-
+
 
 
 

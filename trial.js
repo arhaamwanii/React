@@ -196,4 +196,23 @@
     //.cath is used to define the result for --"REJECT"
 
 
-    
+
+// const axiosRequest = require('axios')
+
+// axiosRequest
+//     .get("https://www.boreapi.com/api/activity")
+//     .then(response => {
+//         console.log(`if could ${response.data.activity}`)
+//     })
+//     .catch(error => {
+//         console.error(`ERROR! ${error}`)
+//     })
+
+
+async function getActivity(){
+    let response = await fetch('https://jsonplaceholder.typicode.com/post')
+    console.log(`working? ${response.json.data}`)
+}
+
+getActivity();
+
