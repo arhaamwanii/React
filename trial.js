@@ -209,10 +209,10 @@
 //     })
 
 
-async function getActivity(){
-    let response = await fetch('https://jsonplaceholder.typicode.com/post')
-    console.log(`working? ${response.json.data}`)
-}
+// async function getActivity(){
+//     let response = await fetch('https://jsonplaceholder.typicode.com/post')
+//     console.log(`working? ${response.json.data}`)
+// }
 
-getActivity();
+// getActivity();
 
