@@ -317,57 +317,135 @@ EXTENDING A CLASSES
     -you also have to include them in the CONSTRUCTOR keyword tho 
 
 
+
+
 GET
 -similar to using a return statement
 
 
+
 PROMISES
--used on network requests
--fetch data
--promise leading to a result - which is either resolved or rejected
 
-    let prom = new Promise((resolve, reject) => {
-    let  a = 1 + 1
-    if(a == 2){
-            resolve("shit is Working")
-        }else{
-            reject("shit is not working")
-        }
-    })
+    -used on network requests
+    -fetch data
+    -promise leading to a result - which is either resolved or rejected
 
-
-    prom.then((message) => {
-        console.log("this is in the then, - " + message)
-    })
-    prom.catch((message) => {
-        console.log("this is in the catch, - " + message)
-    })
+        let prom = new Promise((resolve, reject) => {
+        let  a = 1 + 1
+        if(a == 2){
+                resolve("shit is Working")
+            }else{
+                reject("shit is not working")
+            }
+        })
 
 
-    //then is used when a promise is resolves i.e it is fullfilled  -- is going to run for reslove
-    //we create a new js object and name it prom 
-    //we put in two in built functions related to promise  - resolve and reject as the parameters to the inbuilt object promise
-    //then we define the function  and and the conditions for resolve and reject in there
+        prom.then((message) => {
+            console.log("this is in the then, - " + message)
+        })
+        prom.catch((message) => {
+            console.log("this is in the catch, - " + message)
+        })
 
-    //once the inital conditions are defined we ca define the outPut
-        //.then will be used to deifine the result for --"RESOLVE"
-        //.cath is used to define the result for --"REJECT"
 
--promises are mailnly used toc make something do in the  background
+        //then is used when a promise is resolves i.e it is fullfilled  -- is going to run for reslove
+        //we create a new js object and name it prom 
+        //we put in two in built functions related to promise  - resolve and reject as the parameters to the inbuilt object promise
+        //then we define the function  and and the conditions for resolve and reject in there
+
+        //once the inital conditions are defined we ca define the outPut
+            //.then will be used to deifine the result for --"RESOLVE"
+            //.cath is used to define the result for --"REJECT"
+
+    -promises are mailnly used toc make something do in the  background
+
+
+COC 
+
+    -promises represt the eventual competion or rejection of an Asyncrous function
+    -i.e    it represents the on off of an operation that is going on in the background
+    -it is an promise
+
+
 
 
 FETCH
 -mainly used to do API calls
+-before it  wass xmlhttprequest
+-ashyncronus was hard before
+
+
+
 
 ASYNC
--any function can be made ASYNC
--then we can await a prmoise inside it 
--the values inside are automatically wraped in a promise,
 
-AWAIT 
--it is used to wait before fotr the promise to be full filled
+        DEFAULT
+    - js fundamentaly is a syncronus language - one after one
+    -single thread language
+
+    -asynchronus code - working in the background
+    -any function can be made ASYNC
+    -then we can await a prmoise inside it 
+    -the values inside are automatically wraped in a promise,
+
+    AWAIT 
+        -it is used to wait before fotr the promise to be full filled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CODE EXECUTION IN JS + EXECUTION CONTEXT + CALL STACK
+
+-js execution context 
+-runned in two phases
+GLOBAL EC
+-put in this(windiow object browser )
+-eval execution context this is  a type of global EC(moongose)
+FUNCTIONAL EC 
+-
 -
 
+MEMORY CREATION PHASE
+EXECUTION PHASE
+    
+STEPS
+    global execution - allocated in this 
+    memory phases
+        var 1 = uderfined
+        var 2 = undefined
+
+        addnum - res of the code
+
+        result  1 = undefined
+        result 2  = undefined
+
+EXECUTION PHASE
+
+    new executalble environment will be made - (new execution context)
+    execution thread
+
+        memory phase will re happen again for this environment now 
+        var 1 
+        var 2 
+        traditional
+
+        execution context wil rehappen here also 
 
 
 
@@ -394,17 +472,6 @@ AWAIT
 
 
 
-
-CLASSES 
--it is a template, balnk form\
-
-CONSTRUCTOR
--it is basically used as a input mehtod to make a copy based on the same TEMPLATE
-
-Object
--your information,
--object is subjective.. varies from person to person
--
 
 
 
