@@ -454,6 +454,46 @@ EXECUTION PHASE
 
                             CHAI AND CODE - react 
 
+-- "npx create-next-app@latest"
+- react main library 
+    -ATTACHMENTS   => react-native ,  react-dom
+
+-NPM = node package manager
+-NPX = later on came node package executor - without installing node
+
+-"NPX Crete-react-app 'name of app"
+    -we can create a profect like this but it will be too bulkhy and it is too old fo rno 
+    -the  post i made without anything is 250mb without doing anything
+
+-package.json
+    -scripts are what run the project
+    -build is what compiles the code into html css and js
+    -linting - error massage giver
+
+-RUNNING CODE
+-INSIDE THE "PACKAGE.JSON" ARE DIFFERENT SCRIPTS TO THE RUN THE PROJECT
+    -"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    "
+
+npx - start => this launches the code in the vrowser 
+    - build => makes the code ready for deployment
+    - test => configures the files to run the buch of tests on it
+
+    BUILD
+    -makes the new build folder that will be deployed actually
+
+
+
+
+
+
+
+
+
 
 
 
