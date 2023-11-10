@@ -470,6 +470,10 @@ EXECUTION PHASE
     -build is what compiles the code into html css and js
     -linting - error massage giver
 
+DEV-DEPENDENCIES 
+-these are the dependencies that are only used during the Devlopment process and are not deployed to the users
+
+
 -RUNNING CODE
 -INSIDE THE "PACKAGE.JSON" ARE DIFFERENT SCRIPTS TO THE RUN THE PROJECT
     -"
@@ -485,6 +489,30 @@ npx - start => this launches the code in the vrowser
 
     BUILD
     -makes the new build folder that will be deployed actually
+
+VITE - bundler
+    -faster way to create the react projects 
+    "npm create vite@latest"
+
+    -node_modules are not present in the code by default
+    -commanding "npm install" will istall it and all of the necessary modules 
+
+    RUNNING
+
+    "scripts": 
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+
+    -"npm run dev" 
+
+    -dev will start deployment server provided by VITE
+    -build makes it ready for deployment
+        -lint = basically error giving 
+    -preveiew - makes it host the production code in the local system
+    
+
 
 
 
