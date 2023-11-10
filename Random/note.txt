@@ -511,10 +511,62 @@ VITE - bundler
     -build makes it ready for deployment
         -lint = basically error giving 
     -preveiew - makes it host the production code in the local system
+
+-README.md 
+    contains details about the project 
+
+-package.Json 
+    contains all the dev
+    Project Metadata:
+
+        name: The name of your project.
+
+        version: The version of your project using semantic versioning.
+
+        description: A short description of your project.
+
+        main: The entry point for your project, often the main JavaScript file.
+
+        scripts: Custom scripts that can be executed using npm or yarn.
+
+
+        Dependencies and DevDependencies:
+
+        dependencies: A list of packages your project depends on for runtime functionality.
+
+        devDependencies: A list of packages your project depends on during development or build processes.
+
+
+        Environment Configuration:
+
+        engines: Specifies the versions of Node.js and npm that your project is compatible with.
+
+        browserslist: A configuration for specifying the browsers that your project supports.
+        File and Directory Configuration:
+
+
+        files: An array specifying the files and directories that should be included when your package is published.
+
+        directories: An object specifying the locations of various types of files in your project.
+
+        Repository Information:
+
+        repository: Information about the source code repository of your project.
+        
+        Author Information:
+
+        author: The author or authors of the project.
+        License Information:
+
+        license: The license under which the project is distributed.
+
+SRC 
+
+-all of the code is written here
+
+    -setup.testjs
+    -report-web-vitals(tracks website performance)
     
-
-
-
 
 
 
