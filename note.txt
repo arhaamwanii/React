@@ -604,9 +604,12 @@ VITE
 
 
 -.JSX IS USED FOR BUILDING COMPONENTS
+
+
+
+VITE DEFAULT CONFIG
+
 -in vit we cant have .js files in there we necessaryly have to have .jsx in there
-
-
 
 
 

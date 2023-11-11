@@ -1,13 +1,12 @@
-import chai from "./chai";
-
+import chai from "./chai"
 
 function App() {
   return (
     <>
-   <chai/>
-    <h1>we carrying the boats</h1>
+    <h2>this  is the component in the  </h2>
+    <chai/>
     </>
   )
 }
 
-export default App
+export default App;

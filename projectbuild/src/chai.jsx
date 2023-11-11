@@ -1,9 +1,7 @@
-import React from 'react';
-
-function Chai() {
-  return (
-    <h3>Chai is ready</h3>
-  );
+function chai(){
+    return(
+        <h2>Chai import test</h2>
+    )
 }
 
-export default Chai;
+export default chai;
