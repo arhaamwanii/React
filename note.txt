@@ -515,6 +515,12 @@ VITE - bundler
 -README.md 
     contains details about the project 
 
+-gitignore
+    -it determiners what files get pushed to git hub and what not
+
+    -it should be made in the ROOT directory 
+    -it is used to ignore files and directories mainly
+
 -package.Json 
     contains all the dev
     Project Metadata:
@@ -560,7 +566,10 @@ VITE - bundler
 
         license: The license under which the project is distributed.
 
-SRC 
+node_modules
+
+
+SRC - source folder
 
 -all of the code is written here
 
@@ -568,6 +577,11 @@ SRC
     -report-web-vitals(tracks website performance)
     -logo = react logo
     -app test
+
+
+PROJET STRUCTURE
+
+    -it is heccessary to connect html with the js it cant function on its own
 
 
 
