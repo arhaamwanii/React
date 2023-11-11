@@ -513,7 +513,8 @@ VITE - bundler
     -preveiew - makes it host the production code in the local system
 
 -README.md 
-    contains details about the project 
+    -contains details about the project 
+    -basically a introduction to the project
 
 -gitignore
     -it determiners what files get pushed to git hub and what not
@@ -566,7 +567,9 @@ VITE - bundler
 
         license: The license under which the project is distributed.
 
-node_modules
+PACKAGE-LOCK.JSON
+    -it has all the files that cannot be changed 
+    -stable version of the all the dependencies is stored here
 
 
 SRC - source folder
@@ -582,6 +585,10 @@ SRC - source folder
 PROJET STRUCTURE
 
     -it is heccessary to connect html with the js it cant function on its own
+
+SINGLE-PAGE-APPLICATION
+    -because we have a index.html onlu
+    -we have a single index.html and we put everything in there 
 
 
 
