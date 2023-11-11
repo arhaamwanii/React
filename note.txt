@@ -590,6 +590,19 @@ SINGLE-PAGE-APPLICATION
     -because we have a index.html onlu
     -we have a single index.html and we put everything in there 
 
+VIRTUAL DOM
+    -react creates a DOM that will make a copy of the main browser dom and just manuplatle when needed 
+
+
+
+VITE 
+
+    -there are no react srcipts
+    -they just put in the script directly
+
+
+    
+
 
 
 

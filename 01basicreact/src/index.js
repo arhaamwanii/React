@@ -20,10 +20,10 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ 
     <App />
-  </React.StrictMode>
+
 );
 
 //we just rendered a fucntion whcih itself is rendering the HTML
-//react strict mode is not strictly to be used but it has some usecases during the devlopment
+//react strict mode is not strictly to be used but it has some usecases during the devlopment -  <React.StrictMode> code code code</React.StrictMode>
