@@ -600,10 +600,11 @@ VITE
     -there are no react srcipts
     -they just put in the script directly
 
+//we cannot run "npm run dev"  -- without runninng npm install first because we dont have the dependencies installed
 
-    
 
-
+-.JSX IS USED FOR BUILDING COMPONENTS
+-in vit we cant have .js files in there we necessaryly have to have .jsx in there
 
 
 
