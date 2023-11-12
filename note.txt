@@ -617,6 +617,14 @@ VITE DEFAULT CONFIG
 -in REACT we are just running the index.html injecting the script into the html, which is run via react and react dom - we keep a single page html
 
 
+        BUILDING MINI REACT
+    
+-create react 
+-vite
+-React DOM = it is used in browser
+-React Native = it is used to code for native android and apple
+
+
 
 
 
