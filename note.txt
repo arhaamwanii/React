@@ -718,3 +718,37 @@ USESTATE
     -IT RETURNS TWO THINGS IN THE FORM OF AN ARRAY
     ``````````
     -[COUNTER , FUNCTION(SETCOUNTER)]
+
+
+
+VIRTUAL-DOM
+
+    -CREATE ROOT METHOD - creates a dom(browser like - but it changes whats necessary not wha actuall dom does )
+    -i.e actuall dom chnages completly when refreshed but create root only chnages whats neceassary wothout reloading
+    -all dom can be traced and changed specifically
+
+    -not all ui is updated instantaniously
+
+    -Algorithm that updates the virual dom is Fiber 
+        -it has the ability to pause, abort or reuse work = to updates
+        -in a website the html comes first but it cant be clicked or something as the JS has not yet been imported == the importaition of js in Website is known as HYDRATIONN
+        -this algorith sepacializes in doing this hydration efficiently
+        -RECONSALATION --react is a diffeation algorith == comaprison of two trees(chrome and virtual)
+
+        -you dont need to worry abou the updation of  the variable state
+        -Recnonsiliation is the algorith which is known as Virtual DOM
+
+        DOM  ia just one of th erendering environments react can render into NATIVE IOS and NATIVE ANDROID as well
+
+        -delaying the update in the UI can be helpful - perevent waste
+
+    -we can pause work 
+    -reuse previus work
+    -abort previous work
+
+TAILWIND AND PROPS  
+
+    
+
+
+
