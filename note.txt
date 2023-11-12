@@ -754,7 +754,15 @@ TAILWIND AND PROPS
         =>"npm install -D tailwindcss postcss autoprefixer"
             -installs tailwinds dependecies
         =>"npx tailwindcss init -p"
-            -instiates the file tailwind cofig   
+            -instiates the file tailwind cofig  
+
+    PROPS
+    -makes components re-usable
+        -dont segregate based on the technology that is being used to do something
+        -segregate it based on what FUNCTUON IT DOES
+
+    
+
     
 
 
