@@ -699,3 +699,22 @@ MISCEELLINOUS
 
 JSX 
 what basically happens is, when we write html code in jsx it has its own rendereder what it does it convers that html code into an object like format where it has predefined object propertiy names in which this was put in then this is what is used when we run the code
+
+    FUCKING HOOKS - live updation of user interface
+
+
+//so basically, the value of the counter is updating live but it is not being rendered real time this is where we need hooks to do this real time - REACTive
+//controls the live updation of the UI|
+
+-every hook has single function
+
+USESTATE
+    - it  is responcible for the change of the state 
+    -propogates in into the ui and dom
+    
+    -we can give anything in its input - object, array, string... set him location 
+    -it can run everything but when it comes to optimzation it is a different story 
+
+    -IT RETURNS TWO THINGS IN THE FORM OF AN ARRAY
+    ``````````
+    -[COUNTER , FUNCTION(SETCOUNTER)]
