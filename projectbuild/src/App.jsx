@@ -1,10 +1,10 @@
-import chai from "./chai"
+import Chai from "./chai"
 
 function App() {
   return (
     <>
-    <h2>this  is the component in the  </h2>
-    <chai/>
+    <h2> default html in the app.jsx </h2>
+    <Chai/>
     </>
   )
 }
