@@ -692,3 +692,10 @@ MISCEELLINOUS
 -in order it use variable in jsx we need to enclose it in {}
 -{}
 -it imports the final product which is build - by the js then we just post it in jsx so 
+
+
+-MAKING OUR OWN REACT ELEMENT
+
+
+JSX 
+what basically happens is, when we write html code in jsx it has its own rendereder what it does it convers that html code into an object like format where it has predefined object propertiy names in which this was put in then this is what is used when we run the code

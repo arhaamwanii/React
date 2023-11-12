@@ -1,23 +1,24 @@
 import Chai from "./chai"
+import React from 'react'
 
-const AnotherUser = "another variable in Global context" 
+const AnotherUser = "another variable in Global context - which we put in the a custom react element - which we then put in a  " 
 
-const createReactElemetn = {
-  "h1",
-  
-}
-
-
+const createReactElement = React.createElement(
+  "a",
+  {href: 'youtube.com' , target: "_blank"},
+  AnotherUser
+)
 
 function App() {
   const username = "text-inside user name - function Context"
 
   return (
-    <>
-    <Chai/> 
-    <h1>h1 which is in app.jsx {username}</h1>
-    <h1> arham amin{AnotherUser} </h1>
-  </> 
+  //   <>
+  //   <Chai/> 
+  //   <h1>h1 which is in app.jsx {username}</h1>
+  //   <h1> arham amin {AnotherUser} </h1>
+  // </> 
+  createReactElement
   )
 }
 export default App
