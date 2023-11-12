@@ -1,13 +1,16 @@
 
 import './App.css';
+import Chai from "./chai"
 
 function App() {
   return (
     <>
-    <h1>| They Don't Know me Son yup yup  | </h1>
+
+    <Chai/>
     </>
   );
 }
 //app is just a function which returns HTML 
 export default App;
 //EXPORT THIS SHIT
+
