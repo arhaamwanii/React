@@ -748,6 +748,13 @@ VIRTUAL-DOM
 
 TAILWIND AND PROPS  
 
+
+    -installation of tailwindp-css it needs 
+        
+        =>"npm install -D tailwindcss postcss autoprefixer"
+            -installs tailwinds dependecies
+        =>"npx tailwindcss init -p"
+            -instiates the file tailwind cofig   
     
 
 
