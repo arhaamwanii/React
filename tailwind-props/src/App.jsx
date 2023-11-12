@@ -4,13 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './card'
 
-function App() {
-
-
-  return (
+function App(){
+  return(
     <>
-    <h1 className='mb-20'>Tail Wind Test</h1>
-    <Card/>
+    <Card userName="arhaam-amin"/>
+    <Card btnText="passText"/>
     </>
   )
 }

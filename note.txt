@@ -761,8 +761,22 @@ TAILWIND AND PROPS
         -dont segregate based on the technology that is being used to do something
         -segregate it based on what FUNCTUON IT DOES
 
-    
+    -by default props would be showe dmore than one times it happens due to StrictMode in React
+    - it wont happen in the actuall build
 
+
+        BY DEFAULT PROPS - PARAMETERS are Empty 
+    -we can pass value to it while calling it or in HTML the where we are also basicawlly callling it 
+    -parametrs varry from call to call they need to be specifed for evry call
+    -we can pass objects as parameter  -  which need to be given is as {} and stored in something 
+
+
+    -we can pass in properties and attributes like this as well
+    
+    => || these are used kind of like if no value is passed use this
+        - {props.btnText || "visit me"} 
+    =>we can also specify this value directly in the parameter background
+        - btnText= "visit me"
     
 
 
