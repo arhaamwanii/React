@@ -777,6 +777,12 @@ TAILWIND AND PROPS
         - {props.btnText || "visit me"} 
     =>we can also specify this value directly in the parameter background
         - btnText= "visit me"
+
+    REACT UPDATES IN BATCHES
+        ->use-state
+    -Value of counter will only be incremented by 1 because react takes a snapshot of the state and render according.
+    -so it will interpet repeated values as a single One
+    -we can though achieve this behaviour by accepting the value of the previoud function and then puttin it to increse the value furthre
     
 
 
