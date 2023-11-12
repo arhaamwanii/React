@@ -389,7 +389,8 @@ ASYNC
     -the values inside are automatically wraped in a promise,
 
     AWAIT 
-        -it is used to wait before fotr the promise to be full filled
+        -it is used to wait before for the promise to be full filled
+
 
 
 
@@ -615,7 +616,7 @@ VITE DEFAULT CONFIG
 -SOME LIBRARY REQUIRE THE COMPONENTS TO BE JSX - HTML 
 
 -in REACT we are just running the index.html injecting the script into the html, which is run via react and react dom - we keep a single page html
-
+-TYPE, VALUE , PROPS ...
 
         BUILDING MINI REACT
     
@@ -624,51 +625,70 @@ VITE DEFAULT CONFIG
 -React DOM = it is used in browser
 -React Native = it is used to code for native android and apple
 
+-BUNDLER = correction and advacment of the syntax 
+-Babel is a compiler that -- COMPILES JSX INTO PLAIN JS 
 
 
 
+-MAKING A ELEMENT ACCORDING TO REACT
+
+//FIRST TAG EXPECTED IS THE NAME OF THE HTML ELEMENT
+//SECOND ONE SETS ALL THE PROPERTIIES OF THIS SHIT
+//TIRD ELEMENT IS THE TEXT OF THE ELEMENT
+
+        const reactOwnElement = React.createElement(
+        'a',
+        {href: 'https://arham.com', target: "_blank" },
+        'reacts custom elemnt building process'
+        )
+
+-we are using the remnder process made by react not our own
 
 
+MISCEELLINOUS
+
+                    function  MyApp(){
+                    return(
+                        <div>
+                        <h1>Mains own function </h1>
+                        </div>
+                    )
+                    }
+
+                    const ReactElement = {
+                    type: "a",
+                    props: {
+                        href: 'https://arhaam.com',
+                        target: "_blank"
+                    },
+                    children: "click me to visit google"
+                    }
+                    //THIS SHIT DOES NOT WORK BECUASE >
+
+                    //all becomes like this at end
+                    //this is mot working here becuase react his its own render methods and there naming patterns are different then ours - 
+                    //these namin patters are specifiv to our CUSTOM-REACT
 
 
+                    const AnotherElement = (
+                    <a href="https://x.com" target='_blank' >Visit Google - main object</a>
+                    )
 
 
+                    //MAKING A ELEMENT ACCORDING TO REACT
+
+                    //FIRST TAG EXPECTED IS THE NAME OF THE HTML ELEMENT
+                    //SECOND ONE SETS ALL THE PROPERTIIES OF THIS SHIT
+                    //TIRD ELEMENT IS THE TEXT OF THE ELEMENT
 
 
+                    const reactOwnElement = React.createElement(
+                    'a',
+                    {href: 'https://arham.com', target: "_blank" },
+                    'reacts custom elemnt building process'
+                    )
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
+-in order it use variable in jsx we need to enclose it in {}
+-{}
+-it imports the final product which is build - by the js then we just post it in jsx so 

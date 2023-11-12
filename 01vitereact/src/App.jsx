@@ -1,15 +1,23 @@
-import chai from "./chai"
+import Chai from "./chai"
+
+const AnotherUser = "another variable in Global context" 
+
+const createReactElemetn = {
+  "h1",
+  
+}
 
 
 
 function App() {
+  const username = "text-inside user name - function Context"
 
   return (
-
-<chai/>
-
-
-
+    <>
+    <Chai/> 
+    <h1>h1 which is in app.jsx {username}</h1>
+    <h1> arham amin{AnotherUser} </h1>
+  </> 
   )
 }
 export default App

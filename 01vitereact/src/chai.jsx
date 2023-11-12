@@ -1,6 +1,8 @@
 function chai(){
     return(
-        <h3>function html</h3>
+
+        <h3>HTML inside chai</h3>
+
     )
 }
 
