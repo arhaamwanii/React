@@ -1,15 +1,17 @@
-import { useState } from "react"
+import React, { useState } from "react";
 
-  function App() {
-    const [color, setColor] = useState("olive") 
+function App() {
+  const [color, setColor] = useState("olive");
 
   return (
-    <>
-    <div className="w-full h-screen duration-200" style={{backgroundColor: color}} >
-  <div ></div>
-    </div>
-    </>
-  )
+
+      <div
+        className="w-full h-screen duration-200"
+        style={{ backgroundColor: color }}>
+
+      </div>
+
+  );
 }
 
-export default App
+export default App;
