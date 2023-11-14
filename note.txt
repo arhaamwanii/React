@@ -720,6 +720,12 @@ USESTATE
     -[COUNTER , FUNCTION(SETCOUNTER)]
 
 
+    -  let [counter , setCounter ] = useState(1)
+
+   use state initalizes a variable named counter and and inside the braces is the inital state value of it in this case it is 1
+   set counter is the fuction which when gets called rerenders the value of the counter variable where ever it is present
+
+
 
 VIRTUAL-DOM
 
@@ -796,7 +802,10 @@ ONCLICK - SYNTAX - requires function - but cant take in paramerters so >>
     - so what we do is we call a functon and then make that function call our actually function with the parameters
     
 
-PASSWORD 
+PASSWORD - GNERATOR   -- doing it in a opptimized way
+
+    
+
 
     
 

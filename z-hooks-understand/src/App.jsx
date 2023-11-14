@@ -5,9 +5,12 @@ import './App.css'
 
 function App() {
 
-  let [counter , setCounter ] = useState(15)
+  let [counter , setCounter ] = useState(1)
 
-  // let counter = 15;
+  //counter here is the variable
+  //set conter is the function
+
+  // let counter = 15
 
   const addValue = () =>{
     
