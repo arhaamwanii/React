@@ -784,6 +784,9 @@ TAILWIND AND PROPS
     -so it will interpet repeated values as a single One
     -we can though achieve this behaviour by accepting the value of the previoud function and then puttin it to increse the value furthre
 
+HOOKS REACT 
+    
+    
 
     
 
