@@ -1,5 +1,4 @@
 import { useState, useCallback } from 'react'
-import './App.css'
 
 function App() {
  
@@ -45,6 +44,14 @@ function App() {
 
     {/* to track the number - show it live changing on the screen will take USESTATE  */}
 
+
+    <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-800 '>
+      <div className='flex shadow rounded-lg overflow-hidden mb-4'>
+
+        <input type="text" value={pswd} className='outline-none w-full py-1 px-3'  placeholder='password' readOnly/>
+
+      </div>
+    </div>
 
 
     </div>
