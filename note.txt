@@ -804,7 +804,43 @@ ONCLICK - SYNTAX - requires function - but cant take in paramerters so >>
 
 PASSWORD - GNERATOR   -- doing it in a opptimized way
 
-    
+
+    USE-CALLBACK
+        -keeps the fucntion in the cache
+        -DEPENDENCIES - variables of the state
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOOKS
+    - they dont work inside the a regular function - loop ...
+
+    USESTATE 
+        -handle reactive data 
+        -update the UI
+        -takes in default()
+
+        -returns an arraym => which has two elements first is a Varaible other is a function--SETTER FUNCTIONAL
+
+    USE-EFFECT
+            -component mounted - updated - then unmounted
+
+            -it is a function which takes input as a function you define
+
+
+
+
 
 
     
