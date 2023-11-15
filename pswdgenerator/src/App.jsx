@@ -40,13 +40,15 @@ function App() {
   return (
     <>
     <div className='w-full h-screen' style={{backgroundColor: "black" }}>
-    <h1 className='text-4xl text-center text-white pt-4' >Password Generator</h1>
+    
 
     {/* to track the number - show it live changing on the screen will take USESTATE  */}
 
 
     <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-800 '>
-      <div className='flex shadow rounded-lg overflow-hidden mb-4'>
+      <div className='flex shadow rounded-lg overflow-hidden mb-4 flex-col '>
+
+        <h1 className='text-4xl text-center text-white pt-4' >Password Generator</h1>
 
         <input type="text" value={pswd} className='outline-none w-full py-1 px-3'  placeholder='password' readOnly/>
 
