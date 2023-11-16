@@ -818,7 +818,28 @@ REACT ROUTER DOM
 
    -we use link insted of a beacuse it dosent  refresh the whole page
    - to insted of href 
-   
+
+    ISACTIVE    -       NAVLINK PARAMETER
+
+    when writing classses that are to be changed 
+
+     - className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+
+
+        -writing classes in a callback such that they can be manuplated 
+        -"isActive" this checks and matches the url page content to inialize the calsses
+        -mathches the URL with the to(basically href)to add the classes we want to be added here
+
+        writng classes specified in a fuction directly gives us access to  this  parameter -  "isActive" which which checks for the match of the url and the to/href basically
+
+        In the context of navigation components like NavLink in React Router, the isActive parameter is a function that determines whether the current route matches the path specified in the NavLink. It's a way to conditionally apply styles or other behaviors based on whether the link is considered "active" or not.
+
+    
+
+
+    
 
 
     
