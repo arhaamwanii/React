@@ -810,6 +810,19 @@ PASSWORD - GNERATOR   -- doing it in a opptimized way
         -DEPENDENCIES - variables of the state
 
 
+REACT ROUTER DOM 
+    
+   - INSTALLATION COMMAND:  npm install react-router-dom
+
+    LINK AND NAV-LINK
+
+   -we use link insted of a beacuse it dosent  refresh the whole page
+   - to insted of href 
+   
+
+
+    
+
 
 
 
