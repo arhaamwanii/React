@@ -70,6 +70,9 @@ const StateTutorial = () => {
   return (
     <>
     <input type="text" placeholder="Type Something" onChange={onChange} />
+
+    {/* this onchage attribute detects the change and passes it onto a variable/ which is then used as  a parameter to a function */}
+
     <br /> <br /> <br />
     {inputValue}
     </>
