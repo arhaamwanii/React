@@ -881,8 +881,13 @@ HOOKS
 //command
 
 
+USE-STATE   
+    -changing the state of the application, it rerenders the necessary parts to show the new data
+    -by default a chnage does take place but it is not showen on the webpage as we didnt tell react to re-render it
+    -usestate basically does that and tells react rerender it - as by default it does not rerender it when the value of the variable changes
 
+        <button onClick={addCounter}>Add 7</button>
+        -on click of a button something happens
 
-    
 
 
