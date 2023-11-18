@@ -929,6 +929,7 @@ DISPLAY AND HIDE TEXT VIA A BUTTON INN REACT
 
 
 USE-REDUCER
+
     -it is an alternative to the USE-STATE
     -create rerennderable variables
 
