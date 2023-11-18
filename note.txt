@@ -928,6 +928,10 @@ DISPLAY AND HIDE TEXT VIA A BUTTON INN REACT
 
 
 
+&& and ||(or)
+    they both function nearly same but the thing being that they just are oppoiste
+        {showText || <p>Checking</p> }
+
 USE-REDUCER
 
     -it is an alternative to the USE-STATE
