@@ -890,4 +890,9 @@ USE-STATE
         -on click of a button something happens
 
 
+     // this is how you acess the value inside the Onchange  -- the value that onchange chnged will be accessable here
 
+        -<input type="text" placeholder="Type Something" onChange={onChange} />
+        -   let onChange = (event) => {
+                const newValue = event.target.value;
+             }

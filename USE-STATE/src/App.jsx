@@ -85,4 +85,4 @@ const StateTutorial = () => {
   )
 }
 
-export default StateTutorial
+export default StateTutorial;
