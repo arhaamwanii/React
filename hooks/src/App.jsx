@@ -9,7 +9,7 @@ function App() {
   //comman standard is using set before the name of the function and  after it naming it the state variable name
 
   function SetCounter(){
-    setCounter(counter + 7)
+    setCounter(counter + )
 
   }
   return (
@@ -21,3 +21,5 @@ function App() {
 }
 
 export default App
+
+//comment preserve
