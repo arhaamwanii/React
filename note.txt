@@ -896,3 +896,41 @@ USE-STATE
         -   let onChange = (event) => {
                 const newValue = event.target.value;
              }
+
+
+DISPLAY AND HIDE TEXT VIA A BUTTON INN REACT
+
+
+               - import { useState } from 'react'
+                import './App.css'
+
+                function App() {  
+                    
+                const [check , setCheck] = useState(true)
+                
+
+                return (
+                    <>
+                <button onClick={() => {
+                    setCheck(!check)
+                    console.log(check)
+                }}>
+                    CALL
+                </button>
+
+                {check && <p>hoe how are you</p> }
+
+                    </>
+                )
+                }
+
+                export default App
+
+
+
+USE-REDUCER
+    -it is an alternative to the USE-STATE
+    -create rerennderable variables
+
+    -BENEFIT OVER useState  
+            
