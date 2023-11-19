@@ -40,25 +40,42 @@
 
 import { useReducer} from 'react'
 import './App.css'
-import { useDispatch } from 'react-redux';
+
+const reducer = (state , action ) =>{
+
+  switch(action.type){
+  
+    case "INCREMENT":
+      return{count: state.count + 1 , showText: state.showText }
+  
+      case"toggleShowText":
+    return {count: state.count , showText : !state.showText}
+  
+    default:
+      return state
+  }
+}
 
 function App() {
 
-  const [state, dispatch] = useReducer();
+  const [state, dispatch] = useReducer(reducer, {count: 0 , showText: true });
 
+  
 
   //single declaration of all the variables  - 
   //dispatch variable             
 
+  //creat a function which chooses what happens when we change the sate
+
   return (
     <> 
-    <h1>{count }</h1>
+    <h1>{state.count}</h1>
 
     <button
     onClick={
       () => {
-        setCount(count * 9);
-        SetShowText(!showText);
+       dispatch({type: "INCREMENT"});
+       dispatch({type: "toggleShowText"})
       }
 
     }
@@ -66,7 +83,7 @@ function App() {
       click here
     </button>
 
-    {showText || <p>Checking</p> }
+    {state.showText && <p>Checking</p> }
 
 
     </>
@@ -78,3 +95,4 @@ export default App
 
 
 //using use-reducer when there aremore than one states that are to be altered
+//when we are altering a lot of states at once is when this is used other than that it is not commonly used
