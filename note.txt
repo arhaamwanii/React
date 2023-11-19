@@ -986,7 +986,87 @@ USE-REDUCER
             }
 
 
+SET INTERVAL
+
+    const intervalId = setInterval(() => {
+    setCount(prevCount => prevCount + 1);
+    }, 1000);
+    
+    it is used to repeatedly calll a function after a set amount of time in Seconds
+
+
+
+
+ARGUMENTS ARE THE VALUES WE PROVIDE TO THE PARAMERTERS OF A FUNCTION 
+
+
+
+
 USE-EFFECT
 
+    -it is maimly used to fetch Something
+    -in its case we can deterine when to do somthing, we can listen to STATE changes and do things when those components are rendered or reRendererd  
+
+        useEffect(() => {
+            // Side effect code goes here
+            return () => {
+                // Cleanup code (optional) goes here
+            };
+            }, [dependencies]);
+
+        -its first argument is code which we need to run
+        -its second argument is the LISTNER - things we need to listen to inorder for code to take place
+        - i.e the function will be executed when the component is mounted/renderd   ||  the given dependecies under go a state change
+        
+        -keeping the dependencies array empty [] will ensure that we the code is only exeuted when the function is mounted i.e not listen to any dependency 
+
+USE REF  
+
+-the whole point of react is that you shold not be manuplating individual elements manually 
+-states should be doing this thing for you 
+
+        -it a the way to manuplate dom elements manually 
+
+    const inputRef = useRef(null);
+
+    <input type="text" placeholder='Ex...' ref={inputRef}  />
+
+    INITAIALIZING useRef
     
+        import { useRef } from 'react';
+     const myRef = useRef(initialValue);
+
+
+//we create a refn with the variable name input ref it has the inital value of nothing
+  //we ref it to cantain the valuue form the input
+  //then we create a function which renders its value basically it gave us acess to th
+
+.FOCUS
+
+            import { useRef, useEffect } from 'react';
+
+            function App() {
+            const myButtonRef = useRef(null);
+
+            useEffect(() => {
+                // Focus on the button element when the component mounts
+                myButtonRef.current.focus();
+            }, []);
+
+            return <button ref={myButtonRef}>Click me</button>;
+            }
+
+            export default App
+            
+    -whenever this method is called , this ensures the element  is highlighted, i fit is editable the cursoer ill be automatically there
+
+    <h1 tabindex="0">Focusable Heading</h1>
+
+    In this example, tabindex="0" is added to the <h1> element, making it programmatically focusable. The 0 value indicates that the element should be included in the natural tab order based on its position in the HTML documen
+
+
+USE-CONTEXT
+
+
+        
 

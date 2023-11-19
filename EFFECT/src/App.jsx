@@ -16,13 +16,11 @@ function App() {
    })
   }, [count])
 
+  //ADDING LISTNERS LIKE THIS --- WHENEVER THAT WILL RENDERED OR RE-RENDERED THIS WILL UPDATE
+  //we need to specify this every time
 
-//allows you to pass all the states that we want to listen to, but in this case we pass an emply array which means it wont listen to anything - thus wont change its value 
-//If you pass an empty array ([]) as the second argument to the useEffect hook, it means that the effect will only run once when the component mounts, and it won't run again for subsequent renders
 
-  //the message is logged more than once, i.e however many times the page is re-rendered the this command will be called again thus making it log every time it re-remders 
-  //whatever we put in the function is what will be called when we load the page initially - wheneever the page renders?!
-//this here will be called wheneve a state is canged so yead
+
   
 return (
     <>
@@ -42,3 +40,11 @@ return (
 }
 
 export default App
+
+
+//allows you to pass all the states that we want to listen to, but in this case we pass an emply array which means it wont listen to anything - thus wont change its value 
+//If you pass an empty array ([]) as the second argument to the useEffect hook, it means that the effect will only run once when the component mounts, and it won't run again for subsequent renders
+
+  //the message is logged more than once, i.e however many times the page is re-rendered the this command will be called again thus making it log every time it re-remders 
+  //whatever we put in the function is what will be called when we load the page initially - wheneever the page renders?!
+//this here will be called wheneve a state is canged so yead
