@@ -28,6 +28,6 @@ export default ContextTutorial
 //5days no coding
 //6days without coding
 //7days coding
-//
+//8 days without coding
 //life
 //text
