@@ -26,6 +26,7 @@ export default ContextTutorial
 //3 days no codinhg
 //4days no coding 
 //5days no coding
-/
+//6days without coding
+
 //life
 //text
