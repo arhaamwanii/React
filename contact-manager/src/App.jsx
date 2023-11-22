@@ -1,16 +1,34 @@
 import { useState } from 'react'
 import './App.css'
 import Header from "./Components/Header"
-// import ContactList from "./Components/ContactList"
+import AddContact from "./Components/AddContact"
+import ContactList from "./Components/ContactList"
 // import ContactCard from "./Components/ContactCard"
-// import AddContact from "./Components/AddContact"
+
+
 
 function App() {
+
+const contacts  = [
+  {
+    id: "1",
+    name: "Arham",
+    email: "arhaaamw@gmail.com"
+  },
+  {
+    id: "2",
+    name: "Dayyan",
+    email: "dayyanwani@gamil.com",
+  }
+]
+
   return (
-    <>
-    <Header/>
-    {/* <AddContact/>
-    <ContactList/> */}
+    < >
+    <div className='ui container'>
+        <Header/>
+        <AddContact/>
+        <ContactList contacts={contacts}/> 
+    </div>
     </>
   )
 }
