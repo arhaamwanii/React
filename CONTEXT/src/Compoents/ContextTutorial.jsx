@@ -3,19 +3,60 @@ import User from './User';
 import Login from './Login';
 import { useState } from 'react';
 
+
 function ContextTutorial() {
 
     const [displayname , setDisplayname] = useState("");
+
   
   return (
     <div>
       <Login setUsername={setDisplayname}/>
       <User username={displayname}/>
+      {/* we set the username dispkay user name to the name we have here */}
     </div>
   )
 }
 
 export default ContextTutorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //comment
 //play  volume
